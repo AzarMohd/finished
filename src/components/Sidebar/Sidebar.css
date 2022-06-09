@@ -1,0 +1,42 @@
+.head{
+    /* border: 1px solid red; */
+    height: 100px;
+    cursor: pointer;
+}
+.info {
+    /* border: 1px solid red; */
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    padding: 0px 0px;
+}
+.info.active{
+    position:absolute;
+    left:-250px;
+}
+.item {
+    margin-top: 0px;
+    text-align: left;
+    padding: 10px 30px;
+    height: 30px;
+    /* border: 1px solid red; */
+}
+.icon{
+    width: 20px;
+    margin-left: -30px;
+    font-size:20px ;
+}
+span{
+    margin-left: 20px;
+    font-size:13px ;
+    width: 250px;
+    /* border: 1px solid red; */
+}
+.icons{
+    width: 30px;
+    /* border: 1px solid red; */
+    position: absolute;
+    color:#66ccff;
+    right: 0px;
+}
